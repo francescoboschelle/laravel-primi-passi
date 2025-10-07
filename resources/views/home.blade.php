@@ -38,7 +38,7 @@
         class="navbar navbar-expand-sm navbar-dark"
     >
         <div class="container">
-            <a class="navbar-brand main-text-color" href="./">Laravel 12</a>
+            <a class="navbar-brand main-text-color" href="./">{{$framework}}</a>
             <button
                 class="navbar-toggler d-lg-none"
                 type="button"
@@ -75,7 +75,7 @@
                 <div class="col-md-8">
                     <div class="card-body text-white d-flex flex-column justify-content-between h-100">
                         <div class="card-title">
-                            <h1>Hello <span class="main-text-color">Laravel 12</span>!</h1>
+                            <h1>Hello <span class="main-text-color">{{$framework}}</span>!</h1>
                             <div class="card-text">
                                 <p>My first laravel project.</p>
                             </div>

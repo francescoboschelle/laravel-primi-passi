@@ -2,10 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
+$framework = "Laravel 12";
+
+Route::get('/', function () use ($framework) {
+    return view('home', compact("framework"));
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/about', function () use ($framework) {
+    return view('about', compact("framework"));
 });

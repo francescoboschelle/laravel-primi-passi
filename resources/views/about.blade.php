@@ -53,7 +53,7 @@
         class="navbar navbar-expand-sm navbar-dark"
     >
         <div class="container">
-            <a class="navbar-brand main-text-color" href="./">Laravel 12</a>
+            <a class="navbar-brand main-text-color" href="./">{{$framework}}</a>
             <button
                 class="navbar-toggler d-lg-none"
                 type="button"
@@ -86,9 +86,9 @@
             <div class="card">
                     <div class="card-body text-white d-flex flex-column justify-content-between h-100">
                         <div class="card-title">
-                            <h1>About <span class="main-text-color">Laravel 12</span></h1>
+                            <h1>About <span class="main-text-color">{{$framework}}</span></h1>
                             <div class="card-text">
-                                <p class="lead mb-4">Laravel 12 brings powerful new features and improvements to make development faster and more enjoyable.</p>
+                                <p class="lead mb-4">{{$framework}} brings powerful new features and improvements to make development faster and more enjoyable.</p>
                                 
                                 <div class="row g-3">
                                     <div class="col-md-6">
