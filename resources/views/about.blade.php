@@ -53,7 +53,7 @@
         class="navbar navbar-expand-sm navbar-dark"
     >
         <div class="container">
-            <a class="navbar-brand main-text-color" href="./">{{$framework}}</a>
+            <a class="navbar-brand main-text-color" href='{{ route("home") }}'>{{$framework}}</a>
             <button
                 class="navbar-toggler d-lg-none"
                 type="button"
@@ -68,12 +68,12 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="./"
+                        <a class="nav-link" href='{{ route("home") }}'
                             >Home</a
                         >
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="./about">About</a>
+                        <a class="nav-link active" href='{{ route("about") }}'>About</a>
                     </li>
                 </ul>
             </div>

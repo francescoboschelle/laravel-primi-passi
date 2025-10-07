@@ -38,7 +38,7 @@
         class="navbar navbar-expand-sm navbar-dark"
     >
         <div class="container">
-            <a class="navbar-brand main-text-color" href="./">{{$framework}}</a>
+            <a class="navbar-brand main-text-color" href='{{ route("home") }}'>{{$framework}}</a>
             <button
                 class="navbar-toggler d-lg-none"
                 type="button"
@@ -58,7 +58,7 @@
                         >
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about">About</a>
+                        <a class="nav-link" href='{{ route("about") }}'>About</a>
                     </li>
                 </ul>
             </div>
